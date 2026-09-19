@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import {router} from "./routes/userRoutes.js";
-import { propertyRouter } from "../routes/propertyRouter.js";
+import { propertyRouter } from "./routes/propertyRouter.js";
 import { bookingRouter } from "./routes/bookingRouter.js";
 import { tripRouter } from "./routes/tripRouter.js";
 
